@@ -1,0 +1,12 @@
+filter,noise,ms,psnr,ssim
+bilateral,kind=gauss sigma=30,28.5652,27.3226,0.6112
+blur3,kind=gauss sigma=30,0.4931,27.1544,0.6001
+blur5,kind=gauss sigma=30,0.4534,28.0351,0.713
+blur7,kind=gauss sigma=30,0.7176,27.3654,0.7271
+gaussian3,kind=gauss sigma=30,1.0228,26.7166,0.5688
+gaussian5,kind=gauss sigma=30,1.0032,28.0801,0.671
+gaussian7,kind=gauss sigma=30,1.0931,28.5139,0.7374
+median3,kind=gauss sigma=30,0.3981,25.9072,0.5127
+median5,kind=gauss sigma=30,1.7523,27.9717,0.6556
+median7,kind=gauss sigma=30,35.7197,28.0976,0.7064
+none,kind=gauss sigma=30,0.0027,19.2723,0.2384
